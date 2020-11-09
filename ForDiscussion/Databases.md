@@ -17,9 +17,9 @@ const myOtherDbFunc = async (data) => {
     }}
 
 
-   ## Answers to the questions
+   ##  What is the main difference between these two functions?
 
-    What is the main difference between these two functions?  Why is one better than the other?
+     
 
     1. The first function performs the Insert operation followed by Update .The values are inserted into the table in case the key is unique  , if it finds a duplicate key update of the values is done. The second function performs the update of values in the table , if no update happens which means the key is not already present , then Insert occurs.
     
@@ -32,6 +32,7 @@ const myOtherDbFunc = async (data) => {
     5. Multiple operations on the app affects the performance.
 
 
+   ## Why is one better than the other?
  I have listed pros and cons of both the approaches.
  Depending on whether it is cheaper to scale up the database or app , we need to choose either the first approach or second approach. If we can scale up DB easily then first approach is better and if it is easier to scale up the application server second approach is better.
 
