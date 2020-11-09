@@ -1,6 +1,6 @@
 
 
-# Comments for any supporting considerations you have made relating to your solution
+# Considerations made while writing the solution
 
 1. To make the code more maintainable , I have replaced the logic which calculates 
             
