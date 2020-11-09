@@ -33,6 +33,6 @@ const myOtherDbFunc = async (data) => {
 
 
    ## Why is one better than the other?
- I have listed pros and cons of both the approaches.
- Depending on whether it is cheaper to scale up the database or app , we need to choose either the first approach or second approach. If we can scale up DB easily then first approach is better and if it is easier to scale up the application server second approach is better.
+``` I have listed pros and cons of both the approaches.
+ Depending on whether it is cheaper to scale up the database or app , we need to choose either the first approach or second approach. If we can scale up DB easily then first approach is better and if it is easier to scale up the application server second approach is better.```
 
