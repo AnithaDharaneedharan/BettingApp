@@ -10,3 +10,14 @@ Design / Mock up an architecture to handle sport updates from a 3rd party provid
 
 
 **I have attached the architecture diagram as scanned document**
+
+The REST endpoints would be 
+
+GET http://localhost:3000/betting/updates/event?hasBettingEnabled=true
+GET http://localhost:3000/betting/updates/odd?hasBettingEnabled=true
+
+GET http://localhost:3000/betting/updates/event?hasBettingEnabled=false
+GET http://localhost:3000/betting/updates/odd?hasBettingEnabled=false
+
+
+End user can access the event and odd updates with the query param of bettingEnabled or not.
